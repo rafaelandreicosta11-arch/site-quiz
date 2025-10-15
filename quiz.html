@@ -1,0 +1,41 @@
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz Conhecimentos Gerais </title>
+  <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+  <div class="app">
+    <h1>Quiz de Conhecimentos Gerais</h1>
+    <ul>
+    <li class="button2">
+        <a href="index.html">
+            <span class="txt-link">voltar</span>
+        </a>
+
+    </li>
+</ul>
+    <div class="user-section">
+      <label for="username">Digite seu nome:</label>
+      <input type="text" id="username" placeholder="Seu nome">
+      <button id="start-btn">Começar</button>
+    </div>
+
+    <div class="quiz-section" style="display:none;">
+      <h2 id="question">Pergunta</h2>
+      <div id="answer-buttons" class="btn-container"></div>
+      <button id="next-btn">Próxima</button>
+    </div>
+
+    <div class="result-section" style="display:none;">
+      <h2 id="result-message"></h2>
+      <canvas id="resultChart" width="400" height="200"></canvas>
+      <button id="restart-btn">Jogar novamente</button>
+    </div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
