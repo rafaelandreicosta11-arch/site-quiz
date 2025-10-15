@@ -75,7 +75,7 @@ Como Executar
 
 Demonstração
 
-https://rafaelandreicosta11-arch.github.io/site-quiz/
+Pages: https://rafaelandreicosta11-arch.github.io/site-quiz/
 
 Licença
 
